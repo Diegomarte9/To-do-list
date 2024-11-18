@@ -104,14 +104,14 @@ header {
   padding: 10px;
   border-radius: 5px;
   width: 100%;
-  gap: 10px; /* Espaciado entre los elementos */
+  gap: 10px;
 }
 
 .task-item label {
-  flex: 1; /* El texto toma el espacio restante */
-  overflow: hidden; /* Evita que el texto desborde */
-  white-space: nowrap; /* Evita que el texto haga salto de línea */
-  text-overflow: ellipsis; /* Muestra "..." si el texto es muy largo */
+  flex: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .task-date{
